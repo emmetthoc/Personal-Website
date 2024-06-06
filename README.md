@@ -11,6 +11,9 @@ http://localhost:3000
 (from /personal-website)
 tree -I 'node_modules|.next'
 .
+├── LICENSE
+├── README.md
+└── project-root
 ├── README.md
 ├── jsconfig.json
 ├── next.config.mjs
@@ -21,9 +24,16 @@ tree -I 'node_modules|.next'
 │ ├── next.svg
 │ └── vercel.svg
 ├── src
-│ └── app
-│ ├── favicon.ico
-│ ├── globals.css
-│ ├── layout.js
-│ └── page.js
+│ ├── app
+│ │ ├── layout.jsx
+│ │ ├── page.jsx
+│ │ └── projects
+│ │ ├── [...id]
+│ │ │ └── page.jsx
+│ │ ├── add
+│ │ │ └── page.jsx
+│ │ └── page.jsx
+│ └── assets
+│ └── styles
+│ └── globals.css
 └── tailwind.config.js
