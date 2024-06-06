@@ -4,9 +4,11 @@ Emmett's personal website, intended to display my abilities as a frontend web de
 
 Commands:
 
+(from /project-root)
 npm run dev
 http://localhost:3000
 
+(from /personal-website)
 tree -I 'node_modules|.next'
 .
 ├── README.md
