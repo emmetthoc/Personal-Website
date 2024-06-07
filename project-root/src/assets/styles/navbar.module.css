@@ -1,0 +1,15 @@
+.navbarNav {
+  @apply bg-gray-950;
+}
+
+.navbarLogo {
+  @apply text-center text-slate-200 hover:text-white pt-6;
+}
+
+.navbarListItems {
+  @apply m-auto p-2 flex gap-4 justify-center;
+}
+
+.navbarListItem {
+  @apply text-slate-200 hover:text-white hover:underline;
+}
